@@ -1,0 +1,107 @@
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  color: #22223b;
+}
+
+.App {
+  text-align: center;
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%) !important;
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+}
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: #ffbe0b !important;
+}
+
+.card-header {
+  background: linear-gradient(90deg, #ff006e 0%, #fb5607 100%) !important;
+  color: #fff !important;
+}
+.card-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.card-body {
+  background: #fff;
+}
+
+.table {
+  background: #f1f1f1;
+  color: #22223b;
+}
+.table th {
+  background: #3a86ff !important;
+  color: #fff !important;
+}
+.table td {
+  background: #e0e7ff !important;
+}
+.btn {
+  border-radius: 20px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.btn-success {
+  background: linear-gradient(90deg, #06d6a0 0%, #ffd166 100%);
+  color: #22223b;
+}
+.btn-info {
+  background: linear-gradient(90deg, #118ab2 0%, #073b4c 100%);
+  color: #fff;
+}
+.btn-warning {
+  background: linear-gradient(90deg, #ffbe0b 0%, #fb5607 100%);
+  color: #fff;
+}
+.btn-secondary {
+  background: linear-gradient(90deg, #a9a9a9 0%, #22223b 100%);
+  color: #fff;
+}
+.btn-danger {
+  background: linear-gradient(90deg, #ff006e 0%, #8338ec 100%);
+  color: #fff;
+}
+.btn:hover {
+  opacity: 0.85;
+}
+.App-link {
+  color: #8338ec;
+  font-weight: bold;
+}
+.App-link:hover {
+  color: #ff006e;
+}
+.App-logo {
+  height: 40px;
+  margin-right: 12px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
